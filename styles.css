@@ -1,0 +1,103 @@
+*{
+    font-family: Roboto;
+    padding: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body{
+    background-color: rgb(241, 229, 213);
+}
+
+.header{
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 228, 176);
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffbb84;
+}
+
+#main_img{
+    max-height: 225px;
+    max-width: auto;
+    border-radius: 10px;
+    
+}
+
+.top_text{
+    max-width: 250px;
+}
+
+.middle img{
+    max-width: 100px;
+}
+.steps{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.step1,.step2,.step3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#how_tea{
+    text-align: center;
+}
+
+.bottom{
+    padding: 20px;
+    background-color: #ffbb84;
+    margin: 0 0 10px 0;
+    box-shadow: 10px;
+}
+
+.footer{
+    display: flex;
+    background-color: #ff7300;
+    border: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto 15%;
+    padding: 0 10px;
+}
+
+button{
+    background: none;
+    border-radius: 10px;
+    padding: 5px;
+    min-width: 100px;
+    max-width: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
+    
+}
+.footer p{
+    color: white;
+    
+}
